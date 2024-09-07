@@ -1,4 +1,6 @@
 import React from 'react';
+import FF from './assets/FFF.png';
+import PP from './assets/PPP.jpg';
 import './Edit.css';
 
 const Edit: React.FC = () => {
@@ -28,10 +30,10 @@ const Edit: React.FC = () => {
 
       <div className="header">
         <div className="header-bg" />
-        <img className="logo" src="https://via.placeholder.com/162x128" alt="logo" />
+        <img className="logo" src="FFF" alt="logo" />
         <div className="profile">
           <div className="profile-bg" />
-          <img className="profile-pic" src="https://via.placeholder.com/113x109" alt="profile" />
+          <img className="profile-pic" src="PPP" alt="profile" />
         </div>
       </div>
 

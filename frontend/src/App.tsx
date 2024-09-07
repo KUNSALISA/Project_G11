@@ -34,20 +34,19 @@
 
 // export default App
 
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Edit from './pages/EDIT_flight/Edit';
- 
-// import AddFlight from './AddFlight'; 
-// import EditFlight from './EditFlight'; 
 
 const App: React.FC = () => {
   return (
     <Router>
+      <Routes>
         <Route path="/" element={<Edit />} /> 
+      </Routes>
     </Router>
   );
 };
 
 export default App;
+
