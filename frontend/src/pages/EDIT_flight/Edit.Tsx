@@ -1,7 +1,7 @@
 import React from 'react';
-import FF from './assets/FFF.png';
-import PP from './assets/PPP.jpg';
-import './Edit.css';
+import FFF from './assets/FFF.png';
+import PPP from './assets/PPP.jpg';
+import './Edit';
 
 const Edit: React.FC = () => {
   return (
