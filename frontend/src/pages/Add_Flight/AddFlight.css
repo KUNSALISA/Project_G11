@@ -1,0 +1,163 @@
+.container {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+  }
+  
+  .title {
+    position: absolute;
+    left: 499px;
+    top: 181px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .box {
+    width: 280px;
+    height: 60px;
+    position: absolute;
+    background: #D8D1BE;
+    border-radius: 8px;
+  }
+  
+  .box1 { left: 422px; top: 297px; }
+  .box2 { left: 426px; top: 408px; }
+  .box3 { left: 946px; top: 408px; }
+  .box4 { left: 422px; top: 508px; }
+  .box5 { left: 946px; top: 508px; }
+  .box6 { left: 426px; top: 608px; }
+  .box7 { left: 426px; top: 708px; }
+  .box8 { left: 946px; top: 714px; }
+  .box9 { left: 946px; top: 297px; }
+  .box10 { left: 946px; top: 608px; }
+  
+  .text {
+    position: absolute;
+    color: #5F212E;
+    font-size: 35px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .text1 { left: 233px; top: 309px; }
+  .text2 { left: 217px; top: 420px; }
+  .text3 { left: 794px; top: 420px; }
+  .text4 { left: 180px; top: 520px; }
+  .text5 { left: 720px; top: 520px; }
+  .text6 { left: 326px; top: 620px; }
+  .text7 { left: 340px; top: 714px; }
+  .text8 { left: 848px; top: 726px; }
+  .text9 { left: 849px; top: 309px; }
+  .text10 { left: 768px; top: 620px; }
+  
+  .save-text {
+    position: absolute;
+    left: 1036px;
+    top: 783px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .header {
+    width: 1440px;
+    height: 146px;
+    position: absolute;
+  }
+  
+  .header-background {
+    width: 1440px;
+    height: 146px;
+    background: #69ABC1;
+  }
+  
+  .header-image {
+    width: 162px;
+    height: 128px;
+    position: absolute;
+    left: 65px;
+    top: 9px;
+  }
+  
+  .header-profile {
+    width: 96px;
+    height: 88px;
+    position: absolute;
+    left: 1038px;
+    top: 30px;
+  }
+  
+  .header-profile-background {
+    width: 96px;
+    height: 88px;
+    background: #D9D9D9;
+    border-radius: 9999px;
+  }
+  
+  .header-profile-image {
+    width: 112.94px;
+    height: 109.32px;
+    position: absolute;
+    left: -8.47px;
+    top: -10.39px;
+  }
+  
+  .button {
+    width: 235px;
+    height: 69px;
+    position: absolute;
+    border-radius: 8px;
+  }
+  
+  .button-background {
+    width: 235px;
+    height: 69px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+  }
+  
+  .home-button {
+    left: 317px;
+    top: 63px;
+  }
+  
+  .member-button {
+    left: 1155px;
+    top: 63px;
+  }
+  
+  .save-button {
+    left: 991px;
+    top: 820px;
+    background: #69ABC1;
+  }
+  
+  .notification {
+    width: 103px;
+    height: 97px;
+    position: absolute;
+    left: 1296px;
+    top: 14px;
+    background: #69ABC1;
+  }
+  
+  .notification-icon {
+    width: 36px;
+    height: 21px;
+    position: absolute;
+    left: 54px;
+    top: 54px;
+    border: 4px white solid;
+  }
+  

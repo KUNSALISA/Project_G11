@@ -1,0 +1,124 @@
+/* Container */
+.container {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: white;
+  }
+  
+  /* Header */
+  .header {
+    width: 1440px;
+    height: 146px;
+    position: absolute;
+    background: #69ABC1;
+  }
+  
+  .logo {
+    width: 162px;
+    height: 128px;
+    position: absolute;
+    left: 65px;
+    top: 9px;
+  }
+  
+  .profile {
+    width: 96px;
+    height: 88px;
+    position: absolute;
+    left: 1038px;
+    top: 30px;
+  }
+  
+  .profile-img {
+    width: 113px;
+    height: 109px;
+    position: absolute;
+    left: -8.47px;
+    top: -10.39px;
+  }
+  
+  .nav {
+    position: absolute;
+    top: 63px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    width: 187px;
+    height: 37.58px;
+    background: white;
+    border-radius: 9.38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5F212E;
+    font-size: 21.80px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+  }
+  
+  /* Info Box */
+  .info-box {
+    width: 980px;
+    height: 98px;
+    position: absolute;
+    left: 218px;
+    top: 211px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    border: 1px #D8D1BE solid;
+  }
+  
+  .search-flight {
+    color: #5F212E;
+    font-size: 35px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    text-align: center;
+    line-height: 98px;
+  }
+  
+  /* Flight List */
+  .flight-list {
+    position: absolute;
+    left: 142px;
+    top: 409px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .flight-item {
+    background: white;
+    border-bottom: 3px #69ABC1 solid;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .flight-header {
+    padding: 10px;
+    color: #5F212E;
+    font-size: 25px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+  }
+  
+  /* Edit Button */
+  .edit-button {
+    width: 128px;
+    height: 51px;
+    background: #D8D1BE;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5F212E;
+    font-size: 25px;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    margin: 10px;
+  }
+  
