@@ -1,67 +1,56 @@
 import React from 'react';
-import FFF from './assets/FFF.png';
-import PPP from './assets/PPP.jpg';
-import './Edit';
+import './App.css';
+import FF from './assets/FFF.png';
+import PP from './assets/PPP.jpg';
 
-const Edit: React.FC = () => {
+const App: React.FC = () => {
   return (
     <div className="container">
-      <div className="box" style={{ left: 422, top: 270 }} />
-      <div className="box" style={{ left: 426, top: 381 }} />
-      <div className="box" style={{ left: 946, top: 381 }} />
-      <div className="box" style={{ left: 422, top: 481 }} />
-      <div className="box" style={{ left: 946, top: 481 }} />
-      <div className="box" style={{ left: 426, top: 581 }} />
-      <div className="box" style={{ left: 426, top: 681 }} />
-      <div className="box" style={{ left: 946, top: 675 }} />
-      <div className="box" style={{ left: 946, top: 270 }} />
-      
-      <div className="text" style={{ left: 233, top: 282 }}>FlightCode</div>
-      <div className="text" style={{ left: 217, top: 393 }}>Flying From</div>
-      <div className="text" style={{ left: 794, top: 393 }}>Going To</div>
-      <div className="box" style={{ left: 946, top: 581 }} />
-      <div className="text" style={{ left: 768, top: 593 }}>Airline_ID</div>
-      <div className="text" style={{ left: 180, top: 493 }}>Schedule Start</div>
-      <div className="text" style={{ left: 720, top: 493 }}>Schedule End</div>
-      <div className="text" style={{ left: 326, top: 593 }}>Hour</div>
-      <div className="text" style={{ left: 340, top: 687 }}>Cost</div>
-      <div className="text" style={{ left: 848, top: 687 }}>Point</div>
-      <div className="text" style={{ left: 849, top: 282 }}>Type</div>
-
+      <div className="box box1" />
+      <div className="box box2" />
+      <div className="box box3" />
+      <div className="box box4" />
+      <div className="box box5" />
+      <div className="box box6" />
+      <div className="box box7" />
+      <div className="box box8" />
+      <div className="box box9" />
+      <div className="text text1">FlightCode</div>
+      <div className="text text2">Flying From</div>
+      <div className="text text3">Going To</div>
+      <div className="box box10" />
+      <div className="text text4">Airline_ID</div>
+      <div className="text text5">Schedule Start</div>
+      <div className="text text6">Schedule End</div>
+      <div className="text text7">Hour</div>
+      <div className="text text8">Cost</div>
+      <div className="text text9">Point</div>
+      <div className="text text10">Type</div>
       <div className="header">
-        <div className="header-bg" />
-        <img className="logo" src="FFF" alt="logo" />
-        <div className="profile">
-          <div className="profile-bg" />
-          <img className="profile-pic" src="PPP" alt="profile" />
+        <div className="header-background" />
+        <img className="header-image1" src={FF} alt="Header Image" />
+        <div className="header-profile">
+          <div className="header-profile-background" />
+          <img className="header-profile-image" src={PP} alt="Profile Image" />
         </div>
       </div>
-
-      <div className="menu-item" style={{ left: 317, top: 63 }}>
-        <div className="menu-bg" />
-        <div className="menu-text">Home</div>
+      <div className="button home-button">
+        <div className="button-background">Home</div>
       </div>
-
-      <div className="menu-item" style={{ left: 1155, top: 63 }}>
-        <div className="menu-bg" />
-        <div className="menu-text">MEMBER</div>
+      <div className="button member-button">
+        <div className="button-background">MEMBER</div>
       </div>
-
-      <div className="camera-icon">
-        <div className="camera-lens" />
+      <div className="notification">
+        <div className="notification-icon" />
       </div>
-
-      <div className="button" style={{ left: 704, top: 831 }}>
-        <div className="button-bg save-button" />
-        <div className="button-text">SAVE</div>
+      <div className="button save-button">
+        <div className="button-background">SAVE</div>
       </div>
-
-      <div className="button" style={{ left: 991, top: 831 }}>
-        <div className="button-bg delete-button" />
-        <div className="button-text">DELETE</div>
+      <div className="button delete-button">
+        <div className="button-background">DELETE</div>
       </div>
     </div>
   );
 };
 
-export default Edit;
+export default App;

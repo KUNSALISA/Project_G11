@@ -1,146 +1,146 @@
 .container {
-    width: 1440px;
-    height: 1024px;
-    position: relative;
-    background: white;
-  }
-  
-  .box {
-    width: 280px;
-    height: 60px;
-    position: absolute;
-    background: #d8d1be;
-    border-radius: 8px;
-  }
-  
-  .text {
-    position: absolute;
-    color: #5f212e;
-    font-size: 35px;
-    font-family: 'Bree Serif';
-    font-weight: 400;
-    word-wrap: break-word;
-  }
-  
-  .header {
-    width: 1440px;
-    height: 146px;
-    position: absolute;
-    top: 0;
-  }
-  
-  .header-bg {
-    width: 1440px;
-    height: 146px;
-    background: #69abc1;
-    position: absolute;
-  }
-  
-  .logo {
-    width: 162px;
-    height: 128px;
-    position: absolute;
-    left: 65px;
-    top: 9px;
-  }
-  
-  .profile {
-    width: 96px;
-    height: 88px;
-    position: absolute;
-    left: 1038px;
-    top: 30px;
-  }
-  
-  .profile-bg {
-    width: 96px;
-    height: 88px;
-    background: #d9d9d9;
-    border-radius: 9999px;
-    position: absolute;
-  }
-  
-  .profile-pic {
-    width: 112.94px;
-    height: 109.32px;
-    position: absolute;
-    left: -8.47px;
-    top: -10.39px;
-  }
-  
-  .menu-item {
-    width: 187px;
-    height: 37.58px;
-    position: absolute;
-  }
-  
-  .menu-bg {
-    width: 100%;
-    height: 100%;
-    background: white;
-    border-radius: 9.38px;
-    position: absolute;
-  }
-  
-  .menu-text {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #5f212e;
-    font-size: 21.8px;
-    font-family: 'Bree Serif';
-    font-weight: 400;
-    line-height: 37.58px;
-  }
-  
-  .camera-icon {
-    width: 103px;
-    height: 97px;
-    position: absolute;
-    left: 1296px;
-    top: 14px;
-    background: #69abc1;
-  }
-  
-  .camera-lens {
-    width: 36px;
-    height: 21px;
-    border: 4px white solid;
-    position: absolute;
-    left: 54px;
-    top: 54px;
-  }
-  
-  .button {
-    width: 235px;
-    height: 69px;
-    position: absolute;
-  }
-  
-  .button-bg {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-    position: absolute;
-  }
-  
-  .save-button {
-    background: #69abc1;
-  }
-  
-  .delete-button {
-    background: rgba(95, 33, 46, 0.97);
-  }
-  
-  .button-text {
-    width: 100%;
-    height: 45px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 35px;
-    font-family: 'Bree Serif';
-    font-weight: 400;
-    line-height: 69px;
-  }
-  
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background: white;
+}
+
+.box {
+  width: 280px;
+  height: 60px;
+  position: absolute;
+  background: #D8D1BE;
+  border-radius: 8px;
+}
+
+.box1 { left: 422px; top: 270px; }
+.box2 { left: 426px; top: 381px; }
+.box3 { left: 946px; top: 381px; }
+.box4 { left: 422px; top: 481px; }
+.box5 { left: 946px; top: 481px; }
+.box6 { left: 426px; top: 581px; }
+.box7 { left: 426px; top: 681px; }
+.box8 { left: 946px; top: 675px; }
+.box9 { left: 946px; top: 270px; }
+.box10 { left: 946px; top: 581px; }
+
+.text {
+  position: absolute;
+  color: #5F212E;
+  font-size: 35px;
+  font-family: 'Bree Serif';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.text1 { left: 233px; top: 282px; }
+.text2 { left: 217px; top: 393px; }
+.text3 { left: 794px; top: 393px; }
+.text4 { left: 768px; top: 593px; }
+.text5 { left: 180px; top: 493px; }
+.text6 { left: 720px; top: 493px; }
+.text7 { left: 326px; top: 593px; }
+.text8 { left: 340px; top: 687px; }
+.text9 { left: 848px; top: 687px; }
+.text10 { left: 849px; top: 282px; }
+
+.header {
+  width: 1440px;
+  height: 146px;
+  position: absolute;
+}
+
+.header-background {
+  width: 1440px;
+  height: 146px;
+  background: #69ABC1;
+}
+
+.header-image1 {
+  width: 162px;
+  height: 128px;
+  left: 65px;
+  top: 9px;
+  position: absolute;
+}
+
+.header-profile {
+  width: 96px;
+  height: 88px;
+  position: absolute;
+  left: 1038px;
+  top: 30px;
+}
+
+.header-profile-background {
+  width: 96px;
+  height: 88px;
+  background: #D9D9D9;
+  border-radius: 9999px;
+}
+
+.header-profile-image {
+  width: 112.94px;
+  height: 109.32px;
+  position: absolute;
+  left: -8.47px;
+  top: -10.39px;
+}
+
+.button {
+  width: 235px;
+  height: 69px;
+  position: absolute;
+  border-radius: 8px;
+}
+
+.button-background {
+  width: 235px;
+  height: 69px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-family: 'Bree Serif';
+  font-weight: 400;
+}
+
+.home-button {
+  left: 317px;
+  top: 63px;
+}
+
+.member-button {
+  left: 1155px;
+  top: 63px;
+}
+
+.save-button {
+  left: 704px;
+  top: 831px;
+  background: #69ABC1;
+}
+
+.delete-button {
+  left: 991px;
+  top: 831px;
+  background: rgba(95, 33, 46, 0.97);
+}
+
+.notification {
+  width: 103px;
+  height: 97px;
+  position: absolute;
+  left: 1296px;
+  top: 14px;
+  background: #69ABC1;
+}
+
+.notification-icon {
+  width: 36px;
+  height: 21px;
+  position: absolute;
+  left: 54px;
+  top: 54px;
+  border: 4px white solid;
+}
